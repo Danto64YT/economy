@@ -1,0 +1,21 @@
+command /pay [<offline player>] [<text>]:
+    permission: creepergens.pay
+    trigger:
+        if arg-2 contains "k" or "K":
+            execute player command "essentials:pay %arg-1% %arg-2%000"
+        else if arg-2 contains "m" or "M":
+            execute player command "essentials:pay %arg-1% %arg-2%000000"
+        else if arg-2 contains "b" or "B":
+            execute player command "essentials:pay %arg-1% %arg-2%000000"
+        else if arg-2 contains "t" or "T":
+            execute player command "essentials:pay %arg-1% %arg-2%000000000"
+        else if arg-2 contains "qd" or "QD":
+            execute player command "essentials:pay %arg-1% %arg-2%000000000000"
+        else if arg-2 contains "qn" or "QN":
+            execute player command "essentials:pay %arg-1% %arg-2%000000000000000"
+        else if arg-2 contains "sx" or "SX":
+            execute player command "essentials:pay %arg-1% %arg-2%000000000000000000"
+        else if arg-2 contains "sp" or "SP":
+            execute player command "essentials:pay %arg-1% %arg-2%000000000000000000000"
+        else if arg-2 contains "oc" or "OC":
+            execute player command "essentials:pay %arg-1% %arg-2%000000000000000000000000"
